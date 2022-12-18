@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://static.c86.ac.cn/css/com.astrnuts.origin2.css"
+      rel="stylesheet"
+    />
+    <title>Astrnuts Archive - C86</title>
+  </head>
+
+  <body class="js-enabled c86-core">
+    <a href="#content" class="c86-skip-link">Skip to main content</a>
+
+    <div class="c86-core">
+      <header class="c86-header" role="banner">
+        <div class="c86-width-container c86-header__container">
+          <div class="c86-header__logo">
+            <a
+              class="c86-header__link c86-header__link--service"
+              href="https://c86.ac.cn"
+            >
+              <img
+                class="c86-header__logo-image"
+                src="/img/C86AC.png"
+                alt="C86 Academic"
+                height="40"
+              />
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <div class="c86-width-container">
+        <main id="content" class="c86-main-wrapper" role="main">
+          <section
+            class="c86-hero c86-hero--image c86-hero--image-description"
+            style="
+              background-image: url('https://astrnuts.com/img/Hero.jpg');
+            "
+          >
+            <script>
+              function randomImage() {
+                var images = [
+                  "https://astrnuts.com/img/Hero.jpg",
+
+                  "https://astrnuts.com/img/Hero.jpg",
+                ];
+
+                var size = images.length;
+                var x = Math.floor(size * Math.random());
+                var element =
+                  document.getElementsByClassName("c86-hero--image");
+                if (element.length > 0) {
+                  element[0].style["background-image"] =
+                    "url(" + images[x] + ")";
+                }
+              }
+
+              document.addEventListener("DOMContentLoaded", randomImage);
+            </script>
+            <div class="c86-hero__overlay">
+              <div class="c86-width-container">
+                <div class="c86-grid-row">
+                  <div class="c86-grid-column-two-thirds">
+                    <div class="c86-hero-content">
+                      <h1 class="c86-u-margin-bottom-3">
+                        Astrnuts Archive
+                      </h1>
+                      <p class="c86-body-l c86-u-margin-bottom-0">
+                        This is the storage of the previous C86 Academic websites and its subsidaries.
+                      </p>
+                      <span class="c86-hero__arrow" aria-hidden="true"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="c86-u-reading-width">
+            <!--Contents here-->
+          </div>
+        </main>
+      </div>
+      <footer role="contentinfo">
+        <div class="c86-footer" id="c86-footer">
+          <div class="c86-width-container">
+            <div class="c86-grid-row">
+              <div class="c86-grid-column-two-thirds">
+                <p class="c86-body-s">
+                  Astrnuts Archive is a series of archived contents from the
+                  previous C86 Academic websites and its subsidaries. It is
+                  maintained by Chise Hachiroku and Yang Hu.
+                </p>
+
+                <hr
+                  class="c86-section-break c86-section-break--m c86-section-break--visible"
+                />
+
+                <p class="c86-body-s">
+                  &copy; 2022-23 GCG.moe, C86 Academic, Chise Hachiroku, Yang
+                  Hu.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
