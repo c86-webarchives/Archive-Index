@@ -55,7 +55,7 @@
                                     <div class="c86-hero-content">
                                         <h1 class="c86-u-margin-bottom-3">Astrnuts Archives</h1>
                                         <p class="c86-body-l c86-u-margin-bottom-0">
-                                            In a very real sense, we are all aliens on a strange planet. We spend most of our lives reaching out and trying
+                                            The marks humans leave are too often scars.
                                         </p>
                                         <script>
                                             function randomQuote() {
@@ -67,13 +67,12 @@
                                                     "To see the world, things dangerous to come to, <br/>To see behind walls, to draw closer, <br/>To find each other and to feel. <br/>That is the Purpose of LIFE.",
                                                 ];
                     
-                                                var size = images.length;
+                                                var size = quotes.length;
                                                 var x = Math.floor(size * Math.random());
                                                 var element =
                                                     document.getElementByClassName("c86-body-l");
                                                 if (element.length > 0) {
-                                                    element[0].innerHTML =
-                                                        quotes[x];
+                                                    element[0].innerHTML = quotes[x];
                                                 }
                                             }
                                             document.addEventListener("DOMContentLoaded", randomQuote);
